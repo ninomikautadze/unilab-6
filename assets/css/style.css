@@ -1,0 +1,313 @@
+body{
+    background-color: #F5F5F5;
+}
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header style */
+header{
+    background-color: #F5EFEF;
+    padding: 40px 0;
+}
+header .container .small-header{
+    display: flex;
+    align-items: center;
+}
+header .container .small-header nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+header .container ,.small-header nav ul li{
+    margin-right: 46px;
+    font-size: 16px;
+    color: #75464A;
+    font-family:"cinzel-400", sans-serif; 
+    font-weight:400;
+}
+header .container .small-header nav ul {
+    display: flex;
+}
+/* main part and cards style */
+a{
+    text-decoration: none;
+    font-family:"cinzel-400", sans-serif; 
+}
+
+body .container .specials-header h1{
+    margin-top: 272px;
+    margin-bottom: 100px;
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;    
+}
+body .container .specials-header .cards .flower{
+    border: 1px solid #75464A;
+    background-color: #F5EFEF;
+    border-radius: 9.6px;
+    padding: 20px;
+}
+body .container .specials-header .cards .flower h2{
+    font-size: 16px;
+    font-family:"cinzel-700", sans-serif;
+    margin-top: 15px;
+}
+span{
+    float: right;
+    font-size: 16px;
+}
+body .container .specials-header .cards .flower button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 11px 20px;
+    border: none;
+    background-color: #3F3232;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    float: right;
+    font-family:"cinzel-400", sans-serif; 
+}
+body .container .specials-header .view-more{
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #3F3232;
+    margin-left: 1042px;
+    margin-top: 92px;
+    padding: 18px 53px;
+    border: 0;
+    width: 205px;
+    font-family:"cinzel-400", sans-serif; 
+}
+/* footer style */
+footer{
+    background-color: #F5EFEF;
+}
+footer .footer{
+    height: 250px;
+    margin-top: 200px;
+}
+footer .footer .medias .social-icons{
+    display: flex;
+    gap: 35px;
+}
+footer.footer.medias .social-icons a{
+    cursor: pointer;
+}
+a.social-icons:hover{size: 150%;}
+footer .footer .medias p {
+    font-size: 18px;
+    margin: 30px 0 60px;
+    font-family:"cinzel-400", sans-serif;
+}
+footer .footer .footer-links{
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+footer .footer .footer-links ul li a{
+    cursor: pointer;
+    font-family:"cinzel-400", sans-serif;
+    color: #75464A;
+    font-size: 16px;
+}
+footer .footer .footer-links ul li{
+    margin-bottom: 35px;
+}
+footer .footer .adresses a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* gallery page style */
+main .gallery-page h1{
+    margin-top: 272px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+}
+main .gallery-page .gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+}
+main .gallery-page .gallery-images img{
+    transition: 200ms;
+}
+main .gallery-page .gallery-images img:hover{
+    transform: scale(1.2);
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+/* faq page style */
+main .faq-page h1{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+    margin: 250px 100px 120px;
+}
+main .faq-page h3{
+    font-family:"cinzel-600", sans-serif;
+    font-size: 25px;
+    color: #121111;
+    border-bottom: 1px solid #75464A;
+    padding-bottom: 21px;
+    margin-left: 100px;
+}
+main .faq-page p{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 43px;
+    margin-left: 100px;
+    margin-bottom: 140px;
+}
+/* contact page style */
+main .container .contact-name{
+    font-family:"cinzel-700", sans-serif;
+    color: #000000;
+    font-size: 18px;
+    margin: 250px 0 70px;
+}
+main .container .contact-us h2{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    text-shadow:5px 5px 10px #000000;
+    margin-bottom: 30px;
+}
+main .container .contact-us p{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: right;
+    margin-right: 240px;
+    text-shadow: 3px 3px 7px #121111;
+}
+main .container .fill-parts{
+    margin-top: 133px;
+}
+main .container .flex-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 100px;
+}
+label{
+    display: block;
+    margin: 65px 0 15px;
+    font-size: 16px;
+    font-family:"cinzel-700", sans-serif;
+}
+input[type=text]{
+    width: 400px;
+    height: 40px;
+    padding: 15px 0 15px 60px;
+    border: 1px solid #75464AB2;
+    border-radius: 10px;
+    font-family:"cinzel-700", sans-serif;
+    font-size: 16px;
+}
+input[type=email]{
+    width: 400px;
+    height: 40px;
+    padding: 15px 0 15px 60px;
+    border: 1px solid #75464AB2;
+    border-radius: 10px;
+    font-family:"cinzel-700", sans-serif;
+    font-size: 16px;
+}
+textarea{
+    border: 1px solid #75464AB2;
+    border-radius: 10px;
+    font-family:"cinzel-700", sans-serif;
+    font-size: 16px;
+    margin: 10px 0 15px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 10px 0 15px;
+}
+.required{
+    color: #ff0000;
+    margin-right: 290px;
+}
+main .container .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+.checkbox input{
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+}
+.checkbox label{
+    font-size: 12px;
+    font-family:"cinzel-400", sans-serif;
+    margin-top: 20px;
+}
+.checkbox a{
+    color: #0057FF;
+}
+.send-us{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #3F3232;
+    border-radius: 10px;
+    border: 1px solid #75464AB2;
+    width: 220px;
+    height: 63px;
+    margin-left: 1100px;
+    margin-top: 40px;
+}
+
+/* about us page style */
+main .aboutus-page h1{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+    margin: 250px 30px 120px;
+}
+.aboutus-page .information .text-part p{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18p
+}
+main .text-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+main .aboutus-page .information .text-part .image{
+    margin-bottom: 200px;
+}

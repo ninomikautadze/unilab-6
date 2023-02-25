@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"cinzel-400", sans-serif; 
+    src: url("../fonts/Cinzel-Regular.ttf");
+}
+@font-face {
+    font-family:"cinzel-700", sans-serif;
+    src: url("../fonts/Cinzel-Bold.ttf");
+}
